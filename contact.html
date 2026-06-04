@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | IRON PARADISE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0a0a0a; color: #ffffff; font-family: 'Montserrat', sans-serif; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 30px 10%; background: #0a0a0a; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .logo { font-family: 'Playfair Display', serif; font-size: 2rem; color: #ff3e3e; }
+        nav a { color: #ffffff; text-decoration: none; margin-left: 35px; font-size: 0.9rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+        
+        .container { max-width: 1000px; margin: 80px auto; padding: 0 20px; text-align: center; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 20px; }
+        .subtitle { font-size: 1rem; color: #aaaaaa; font-weight: 300; margin-bottom: 50px; letter-spacing: 1px; }
+        
+        .map-wrapper { border: 1px solid rgba(255,255,255,0.1); padding: 10px; background: #111111; margin-bottom: 50px; }
+        iframe { display: block; filter: grayscale(100%) invert(90%); }
+        
+        .wa-contact { 
+            display: inline-block; 
+            padding: 18px 50px; 
+            background: #ff3e3e; 
+            color: #ffffff; 
+            text-decoration: none; 
+            font-size: 0.85rem; 
+            font-weight: 700; 
+            letter-spacing: 2px; 
+            text-transform: uppercase;
+            transition: opacity 0.3s;
+        }
+        .wa-contact:hover { opacity: 0.9; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">IRON PARADISE</div>
+        <nav>
+            <a href="index.html">Home</a><a href="services.html">Services</a><a href="plans.html">Plans</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title animate__animated animate__fadeInDown">Connect With Us</h2>
+        <p class="subtitle animate__animated animate__fadeInDown">Find us on the map or start an instant conversation.</p>
+        
+        <div class="map-wrapper animate__animated animate__zoomIn">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500!2d77.1!3d28.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzAwLjAiTiA3N8KwMDYnMDAuMCJF!5e0!3m2!1sen!2sin!4v1!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+        <a href="https://wa.me/919999999999?text=Hello%20Iron%20Paradise" class="wa-contact animate__animated animate__fadeInUp">Message On WhatsApp</a>
+    </div>
+</body>
+</html>
