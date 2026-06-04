@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMBERSHIP | IRON PARADISE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0a0a0a; color: #ffffff; font-family: 'Montserrat', sans-serif; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 30px 10%; background: #0a0a0a; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .logo { font-family: 'Playfair Display', serif; font-size: 2rem; color: #ff3e3e; }
+        nav a { color: #ffffff; text-decoration: none; margin-left: 35px; font-size: 0.9rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+        
+        .container { max-width: 1000px; margin: 80px auto; padding: 0 20px; text-align: center; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 60px; }
+        
+        .plans-flex { display: flex; gap: 40px; justify-content: center; flex-wrap: wrap; }
+        .plan-card { background: #111111; padding: 50px 40px; width: 100%; max-width: 400px; border: 1px solid rgba(255,255,255,0.05); text-align: left; position: relative; }
+        .plan-card.featured { border: 1px solid #ff3e3e; }
+        .plan-card h3 { font-family: 'Playfair Display', serif; font-size: 1.8rem; margin-bottom: 10px; }
+        .price { font-size: 2rem; font-weight: 700; color: #ff3e3e; margin-bottom: 30px; }
+        .plan-card ul { list-style: none; margin-bottom: 40px; }
+        .plan-card ul li { margin-bottom: 15px; font-size: 0.95rem; color: #aaaaaa; font-weight: 300; }
+        .plan-btn { display: block; text-align: center; padding: 14px; border: 1px solid #ffffff; color: #ffffff; text-decoration: none; font-size: 0.85rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; transition: 0.3s; }
+        .plan-card.featured .plan-btn { background: #ff3e3e; border-color: #ff3e3e; }
+        .plan-btn:hover { background: #ffffff; color: #0a0a0a; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">IRON PARADISE</div>
+        <nav>
+            <a href="index.html">Home</a><a href="services.html">Services</a><a href="plans.html">Plans</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title animate__animated animate__fadeIn">Tier Access</h2>
+        <div class="plans-flex">
+            <div class="plan-card animate__animated animate__fadeInLeft">
+                <h3>Club Access</h3>
+                <div class="price">₹1,499 / mo</div>
+                <ul>
+                    <li>Full Gym Floor Access</li>
+                    <li>Locker & Shower Facilities</li>
+                    <li>Standard Fitness Orientation</li>
+                </ul>
+                <a href="https://wa.me/919999999999?text=Club%20Access" class="plan-btn">Select Plan</a>
+            </div>
+            <div class="plan-card featured animate__animated animate__fadeInRight">
+                <h3>Elite Tier</h3>
+                <div class="price">₹2,999 / mo</div>
+                <ul>
+                    <li>24/7 Complete Facility Access</li>
+                    <li>3x Weekly Elite Private Coaching</li>
+                    <li>Custom Performance Diet Matrices</li>
+                </ul>
+                <a href="https://wa.me/919999999999?text=Elite%20Tier" class="plan-btn">Select Plan</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
