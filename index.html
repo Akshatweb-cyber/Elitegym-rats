@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON PARADISE | PREMIUM FITNESS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: linear-gradient(rgba(15, 15, 15, 0.85), rgba(15, 15, 15, 0.85)), url('watermarked_img_8845503231115934402.png'); 
+            background-size: cover; 
+            background-attachment: fixed; 
+            background-position: center;
+            color: #ffffff; 
+            font-family: 'Montserrat', sans-serif; 
+            line-height: 1.6;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 10%;
+            background: rgba(10, 10, 10, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; letter-spacing: 2px; color: #ff3e3e; }
+        nav a { color: #ffffff; text-decoration: none; margin-left: 35px; font-size: 0.9rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; transition: color 0.3s; }
+        nav a:hover { color: #ff3e3e; }
+        
+        .hero {
+            height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 4.5rem; font-weight: 700; margin-bottom: 15px; letter-spacing: 3px; }
+        .hero p { font-size: 1.1rem; font-weight: 300; max-width: 650px; color: #cccccc; margin-bottom: 35px; letter-spacing: 1px; }
+        .btn { 
+            display: inline-block; 
+            padding: 16px 45px; 
+            background: transparent; 
+            color: #ffffff; 
+            border: 2px solid #ff3e3e; 
+            text-decoration: none; 
+            font-size: 0.9rem; 
+            font-weight: 700; 
+            letter-spacing: 2px; 
+            text-transform: uppercase; 
+            transition: all 0.4s; 
+        }
+        .btn:hover { background: #ff3e3e; color: #ffffff; box-shadow: 0 10px 20px rgba(255, 62, 62, 0.2); }
+
+        @media (max-width: 768px) {
+            header { flex-direction: column; padding: 20px; }
+            nav { margin-top: 20px; }
+            nav a { margin: 0 10px; font-size: 0.8rem; }
+            .hero h1 { font-size: 2.8rem; }
+            .hero p { font-size: 0.9rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="animate__animated animate__fadeInDown">
+        <div class="logo">IRON PARADISE</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="plans.html">Plans</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1 class="animate__animated animate__fadeInUp">The Art of Strength</h1>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s">Welcome to a refined space dedicated to raw transformation and athletic excellence. We blend premium coaching with state-of-the-art discipline.</p>
+        <a href="services.html" class="btn animate__animated animate__fadeInUp animate__delay-2s">Explore Services</a>
+    </div>
+</body>
+</html>
