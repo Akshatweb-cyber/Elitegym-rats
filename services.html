@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES | IRON PARADISE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0a0a0a; color: #ffffff; font-family: 'Montserrat', sans-serif; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 30px 10%; background: #0a0a0a; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .logo { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: #ff3e3e; }
+        nav a { color: #ffffff; text-decoration: none; margin-left: 35px; font-size: 0.9rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+        
+        .container { max-width: 1200px; margin: 80px auto; padding: 0 20px; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 3rem; text-align: center; margin-bottom: 60px; }
+        
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; }
+        .service-card { background: #111111; padding: 40px; border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s, border-color 0.3s; }
+        .service-card:hover { transform: translateY(-5px); border-color: #ff3e3e; }
+        .service-card h3 { font-family: 'Playfair Display', serif; font-size: 1.6rem; margin-bottom: 15px; color: #ff3e3e; }
+        .service-card p { color: #aaaaaa; font-size: 0.95rem; line-height: 1.7; font-weight: 300; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">IRON PARADISE</div>
+        <nav>
+            <a href="index.html">Home</a><a href="services.html">Services</a><a href="plans.html">Plans</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title animate__animated animate__fadeIn">Our Specialities</h2>
+        <div class="services-grid">
+            <div class="service-card animate__animated animate__fadeInUp">
+                <h3>01. Personal Training</h3>
+                <p>Tailored program design focusing on kinetic alignment, scientific hypertrophy, and structural power output designed exclusively for your physiology.</p>
+            </div>
+            <div class="service-card animate__animated animate__fadeInUp animate__delay-1s">
+                <h3>02. Precision Nutrition</h3>
+                <p>Complete metabolic assessment followed by micro and macro nutrient profiling to keep your energy levels steady while shedding stubborn body fat.</p>
+            </div>
+            <div class="service-card animate__animated animate__fadeInUp animate__delay-2s">
+                <h3>03. Athletic Recovery</h3>
+                <p>Advanced recovery coaching consisting of deep tissue protocols, sleep optimization strategies, and targeted joint mobility routines.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
